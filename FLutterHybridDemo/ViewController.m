@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <Flutter/Flutter.h>
 #import "AppDelegate.h"
+#import "HybridViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [self addButton];
+}
+
+- (IBAction)BasicMessageChannel:(id)sender {
+    HybridViewController *controller = [[HybridViewController alloc]initWithChannelType:HybridBasicMessageChannelType];
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
+- (IBAction)EventChannel:(id)sender {
+    
+}
+
+- (IBAction)MethodChannel:(id)sender {
+    
+}
+
+
+
+- (void)addButton {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button addTarget:self
                action:@selector(handleButtonAction)
@@ -27,7 +47,8 @@
     button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
     [self.view addSubview:button];
 }
-    
+
+//跳转方式
 - (void)handleButtonAction {
     // 方式一
     FlutterEngine *flutterEngine = [(AppDelegate *)[[UIApplication sharedApplication] delegate] flutterEngine];

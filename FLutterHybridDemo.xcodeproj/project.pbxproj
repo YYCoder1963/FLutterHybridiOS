@@ -16,6 +16,8 @@
 		6802DAF422894C34003C2020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802DAF322894C34003C2020 /* main.m */; };
 		6802DAFE22894C34003C2020 /* FLutterHybridDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802DAFD22894C34003C2020 /* FLutterHybridDemoTests.m */; };
 		6802DB0922894C34003C2020 /* FLutterHybridDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802DB0822894C34003C2020 /* FLutterHybridDemoUITests.m */; };
+		68D5C037228AA1040007E871 /* HybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D5C036228AA1040007E871 /* HybridViewController.m */; };
+		68D5C039228AA60D0007E871 /* HybridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D5C038228AA60D0007E871 /* HybridViewController.xib */; };
 		7AE9E6D6B2FB21A4364D0E89 /* libPods-FLutterHybridDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA73B3946DC0B4026F06F03B /* libPods-FLutterHybridDemoUITests.a */; };
 		82602287DF3EF5A37BD5A42F /* libPods-FLutterHybridDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDFE52DCB37C07D7DBA5AA8 /* libPods-FLutterHybridDemoTests.a */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,9 @@
 		6802DB0422894C34003C2020 /* FLutterHybridDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLutterHybridDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6802DB0822894C34003C2020 /* FLutterHybridDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLutterHybridDemoUITests.m; sourceTree = "<group>"; };
 		6802DB0A22894C34003C2020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D5C035228AA1040007E871 /* HybridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HybridViewController.h; sourceTree = "<group>"; };
+		68D5C036228AA1040007E871 /* HybridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridViewController.m; sourceTree = "<group>"; };
+		68D5C038228AA60D0007E871 /* HybridViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HybridViewController.xib; sourceTree = "<group>"; };
 		98B3C13567A04C41351E0C4F /* Pods-FLutterHybridDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterHybridDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterHybridDemoTests/Pods-FLutterHybridDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA695D03A27B4054AADE9C17 /* Pods-FLutterHybridDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterHybridDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterHybridDemoUITests/Pods-FLutterHybridDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6D076030AA0EAB2F908C43D /* Pods-FLutterHybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLutterHybridDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLutterHybridDemo/Pods-FLutterHybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +155,9 @@
 				6802DAEF22894C34003C2020 /* LaunchScreen.storyboard */,
 				6802DAF222894C34003C2020 /* Info.plist */,
 				6802DAF322894C34003C2020 /* main.m */,
+				68D5C035228AA1040007E871 /* HybridViewController.h */,
+				68D5C036228AA1040007E871 /* HybridViewController.m */,
+				68D5C038228AA60D0007E871 /* HybridViewController.xib */,
 			);
 			path = FLutterHybridDemo;
 			sourceTree = "<group>";
@@ -282,6 +290,7 @@
 			files = (
 				6802DAF122894C34003C2020 /* LaunchScreen.storyboard in Resources */,
 				6802DAEE22894C34003C2020 /* Assets.xcassets in Resources */,
+				68D5C039228AA60D0007E871 /* HybridViewController.xib in Resources */,
 				6802DAEC22894C32003C2020 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +426,7 @@
 			files = (
 				6802DAE922894C32003C2020 /* ViewController.m in Sources */,
 				6802DAF422894C34003C2020 /* main.m in Sources */,
+				68D5C037228AA1040007E871 /* HybridViewController.m in Sources */,
 				6802DAE622894C32003C2020 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
